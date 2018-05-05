@@ -10,3 +10,11 @@ def batch_badge_creator(names)
   end
   return badge_names
 end
+
+def assign_rooms(speakers)
+  speakerRooms = []
+  i = 0
+  while (i < speakers.count)
+    speakerRooms.push("Hello, #{speaker[i]}! You'll be assigned to room #{i+1}!")
+  
+end
