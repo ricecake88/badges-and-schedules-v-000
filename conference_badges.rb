@@ -13,8 +13,6 @@ end
 
 def assign_rooms(speakers)
   speakerRooms = []
-  i = 0
-  while (i < speakers.count)
-    speakerRooms.push("Hello, #{speaker[i]}! You'll be assigned to room #{i+1}!")
+  speakers.each_with_index do |speaker
   
 end
